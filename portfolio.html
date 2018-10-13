@@ -1,0 +1,205 @@
+<!-- Bootstrap Grid Demo -->
+<!DOCTYPE html>
+<html lang="en-us">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <title>Portfolio</title>
+
+        <!-- Bring in our bootstrap stylesheet -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+        <!-- Bring in our JQuery Stylesheet -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/overide.css">
+
+
+    </head>
+
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id = "mainNav">
+            <div class="navbar-container">
+              <a class="navbar-brand js-scroll-trigger" href="portfolio.html">Alexander Johnson Portfolio</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+          
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                  <!-- <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="index.html">About</a>
+                  </li> -->
+                  <li class="nav-item">
+                      <!-- <div class = "projMove">Projects</div> -->
+                    <a class="nav-link js-scroll-trigger scrolltoProjects">Projects</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link js-scroll-trigger scrolltoAbout">About</a>
+                    </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+<body>
+
+<!-- <br>
+<br>
+<br> -->
+
+
+  <!-- Creates the Overall Grid -->
+    <div class="slideshow">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                            <div class = "IntroDiv">
+                    
+                                </div>
+                      <div class="carousel-item active">
+                        <img class="d-block w-100" src="assets/mg.jpg" alt="First slide" height= "100%" width= "100%">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="assets/jeepBeach.jpg" alt="Second slide" height= "100%" width= "100%">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="assets/mg2.jpg" alt="Third slide" height= "100%" width= "100%">
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+    </div>
+<!-- <div class="hitPoint"> -->
+    <br>
+    <br>
+<!-- </div> -->
+
+    <div id = "main">
+        <br>
+        <br>
+        <div class="row">
+            <div class="col-md-12">
+                <div class = "page-header">
+                    <br>
+                    <h1>Projects</h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="row form">
+
+            <div class="col-md-4 imageBox">
+                <h3>
+                    <img src="assets/unityGame.png" class="img-fluid" alt="Responsive image">
+                    <a class = "mytext" style="display:block;width:100%" href="https://damp-cove-70882.herokuapp.com/" target="_blank">Unity Labrynth Game</a>
+                </h3>    
+            </div>
+
+            <div class="col-md-4 imageBox">
+                <h3>
+                    <img src="assets/eventFinder.png" class="img-fluid" alt="Responsive image">
+                    <a class = "mytext" style="display:block;width:100%" href="https://asjohnson3.github.io/Event_Finder/"target="_blank">Event Finder by State</a>
+                </h3>  
+            </div>
+
+            <div class="col-md-4 imageBox">
+                <h3>
+                    <img src="assets/pokemon.png" class="img-fluid" alt="Responsive image">
+                    <a class = "mytext" style="display:block;width:100%" href="https://asjohnson3.github.io/Game4/"target="_blank">Basic Pokemon Game</a>
+                </h3>
+            </div>
+
+            <div class="col-md-4 imageBox">
+                <h3>
+                    <img src="assets/TriviaGame.png" class="img-fluid" alt="Responsive image">
+                    <a class = "mytext" style="display:block;width:100%" href="https://asjohnson3.github.io/TriviaGame/"target="_blank">Timed Trivia Game</a>
+                </h3>  
+            </div>
+
+            <div class="col-md-4 imageBox">
+                <h3>
+                    <img src="assets/Bamazon.png" class="img-fluid" alt="Responsive image">
+                    <a class = "mytext" style="display:block;width:100%" href="https://github.com/asjohnson3/Bamazon">Retail Ordering System</a>
+                </h3>  
+            </div>
+
+            <div class="col-md-4 imageBox">
+                <h3>
+                    <img src="assets/matchmaker.png" class="img-fluid" alt="Responsive image">
+                    <a class = "mytext" style="display:block;width:100%" href="https://serene-waters-94734.herokuapp.com/">Matchemaker Game</a>
+                </h3>  
+            </div>
+
+        </div>
+    <div class="row">
+        <div class="col-lg-4 portrait">
+            <div class="aboutMe">
+                <img src="assets/portrait.jpg" class="img-fluid" alt="Responsive image">
+            </div>
+        </div>
+        <div class="col-lg-8 personalStatement">
+            <div class="description">
+                I graduated a year ahead of my peers in 2017 from Durham University (U.K.) with a bachelor's degree in Mechanical Engineering. I have since worked in finance as a 
+            </div>
+        </div>
+    </div>
+        <div class = "row">
+            
+                <div class = "col-lg-6 Perbackground">
+                    <div class = "introDiv">
+                        <p class = "introHead">Education</p>
+                        <div class = "introBody">
+                            <br>
+                            <p class = "top"><strong>2013</strong>: Cornell University Architecture Program</p>
+                            <p><strong>2016</strong>: Design Apprentice at Ernie Yim Design and Construction LTD</p>    
+                            <p><strong>2014-2017</strong>: Graduated with honors from Durham University (UK) in Mechanical Engineering</p>
+                            <p><strong>2017-2018</strong>: Research Associate and Junior Trader at Puma Capital LLC.</p>
+                            <p><strong>2018</strong>: Columbia University Fullstack Program</p>
+                            <br>
+                        </div>
+        
+                    </div>
+                </div>
+                <div class = "col-lg-6 Perbackground">
+                        <div class = "introDiv">
+                            <p class = "introHead">Work</p>
+                            <div class = "introBody">
+                                <br>
+                                <p class = "top"><strong>2013</strong>: Cornell University Architecture Program</p>
+                                <p><strong>2016</strong>: Design Apprentice at Ernie Yim Design and Construction LTD</p>    
+                                <p><strong>2014-2017</strong>: Graduated with honors from Durham University (UK) in Mechanical Engineering</p>
+                                <p><strong>2017-2018</strong>: Research Associate and Junior Trader at Puma Capital LLC.</p>
+                                <p><strong>2018</strong>: Columbia University Fullstack Program</p>
+                                <br>
+                            </div>
+            
+                        </div>
+                </div>
+        </div>
+    </div>
+ 
+</body>
+<!-- <br> -->
+
+<footer>
+        <div class ="container">
+            &copy; Copyright 2018
+        </div>
+    </footer>
+
+    <script src="assets/logic.js/logic.js"></script>
+</html>
