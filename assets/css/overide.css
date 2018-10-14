@@ -230,3 +230,10 @@ strong{
     padding: 0;
     margin-bottom: 20px;
 }
+
+.descrImage{
+    /* height: 100%;
+    width: auto; */
+    object-fit: cover;
+    /* top: 20px; */
+}

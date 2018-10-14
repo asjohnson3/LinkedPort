@@ -49,6 +49,6 @@
 
   $(".scrolltoAbout").click(function() {
     $('html,body').animate({
-        scrollTop: $(".Perbackground").offset().top},
+        scrollTop: $(".hitPoint").offset().top},
         'slow');
   });
