@@ -41,14 +41,20 @@
   
   })(jQuery); // End of use strict
 
-  $(".scrolltoProjects").click(function() {
-    $('html,body').animate({
-        scrollTop: $("#main").offset().top},
-        'slow');
-  });
+$(".scrolltoProjects").click(function() {
+  $('html,body').animate({
+    scrollTop: $("#main").offset().top},
+    'slow');
+});
 
-  $(".scrolltoAbout").click(function() {
-    $('html,body').animate({
-        scrollTop: $(".hitPoint").offset().top},
-        'slow');
-  });
+$(".scrolltoAbout").click(function() {
+  $('html,body').animate({
+    scrollTop: $(".hitPoint").offset().top},
+    'slow');
+});
+
+$(".scrollTop").click(function() {
+  $('html,body').animate({
+    scrollTop: $("head").offset().top},
+    'slow');
+});
